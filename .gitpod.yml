@@ -1,0 +1,10 @@
+tasks:
+  - name: Install Requirements
+    before: |
+      echo "Preparing to install dependencies..."
+    init: |
+      pip install -r requirements.txt
+      pip install --upgrade pip
+
+
+
